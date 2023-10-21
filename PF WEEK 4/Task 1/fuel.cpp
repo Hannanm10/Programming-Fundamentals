@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
 
-void fuel();
+void fuel(float distance);
 
 main () {
 	cout << "Enter the distance: ";
 	float distance;
 	cin >> distance;
-	fuel();
+	fuel(distance);
 }
 
-void fuel() {
+void fuel(float distance) {
 
 	float fuel = distance*10;
 	cout << "Fuel needed: " <<fuel;
