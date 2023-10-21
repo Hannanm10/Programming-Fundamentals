@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void result();
+void result(int score);
 
 main () {
 
 	cout << "Enter your score: ";
 	int score;
 	cin >> score;
-	result();
+	result(score);
 }
 
-void result(){
+void result(int score){
 
 	if (score > 50){
 	cout << "Pass";
