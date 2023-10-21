@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void calculatefuel();
+void calculatefuel(float distance);
 
 
 main () {
@@ -9,11 +9,11 @@ main () {
 	cout << "Enter the distance: ";
 	float distance;
 	cin >> distance;
-	calculatefuel();
+	calculatefuel(distance);
 	
 }
 
-void calculatefuel() {
+void calculatefuel(float distance) {
 
 	if (distance > 10){
 	float fuel = distance*10;
