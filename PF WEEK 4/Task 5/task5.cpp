@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void vote();
+void vote(int age);
 
 main () {
 
 	cout << "Enter your age: ";
 	int age;
 	cin >> age;
-	vote();
+	vote(age);
 }
 
-void vote(){
+void vote(int age){
 
 	
 if (age >= 18){
